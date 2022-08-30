@@ -1,13 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+:root{
+    --colorHeaderFooter : #6d716f;}
 body{ background-color: rgb(236, 233, 230)}
 .img-logo{ width: 5rem;}
 
 .coloresNav{ background-color: rgb(241, 216, 216);}
+.imgTitulo{  background-image: url("../img/img-para-el-TITULO-04.jpg"); background-repeat: no-repeat ; background-size: 100% 120%; }
 .fontSize{
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 2px  rgb(90, 88, 88);
 }
 .imgRedes{width: 50%;}
+
+
+@media (min-width: 992px){
+    .ms-lg-4 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.6rem;}
+    .navbar-expand-lg .navbar-nav .nav-link {
+       margin-left: 2.5rem;
+       border: 1px solid rgb(183, 183, 183);
+       border-radius: 5px;}
+       
+    .navbar-expand-lg .navbar-nav .nav-link:hover{ background-color: rgb(78, 82, 85) ;border: 2px solid rgb(37, 31, 31);}
+}
