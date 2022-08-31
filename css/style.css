@@ -18,7 +18,7 @@ body{ background-color: rgb(236, 233, 230)}
         font-family: 'Times New Roman', Times, serif;
         font-size: 1.6rem;}
     .navbar-expand-lg .navbar-nav .nav-link {
-       margin-left: 2.5rem;
+       margin-left: 1rem;
        border-bottom: 2px  ridge rgba(228, 226, 226, 0.608);
        border-radius: 5px;background-color: rgba(145, 143, 141, 0.36);
     }
