@@ -1,31 +1,41 @@
-:root{
-    --colorHeaderFooter : #6d716f;}
-body{ background-color: rgb(236, 233, 230)}
-.img-logo{ width: 5rem;}
+:root {
+  --colorHeaderFooter: #6d716f; }
 
-.coloresNav{ background-color: rgb(241, 216, 216);}
-.imgTitulo{  background-image: url("../img/img-para-el-TITULO-04.jpg"); background-repeat: no-repeat ; background-size: 100% 120%; }
-.fontSize{
-    font-size: 6rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 3px 3px 2px  rgb(90, 88, 88);
-}
-.imgRedes{width: 50%;}
-.text-muted{color: #ffffff!important;}
+body {
+  background-color: #ece9e6; }
 
-@media (min-width: 992px){
-    .ms-lg-4 {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 1.6rem;}
-    .navbar-expand-lg .navbar-nav .nav-link {
-       margin-left: 1rem;
-       border-bottom: 2px  ridge rgba(228, 226, 226, 0.608);
-       border-radius: 5px;background-color: rgba(145, 143, 141, 0.36);
-    }
-       
-    .navbar-expand-lg .navbar-nav .nav-link:hover{ 
-        background-color: rgb(238, 172, 59) ;
-        box-shadow: 2px 2px 4px 1px rgb(0, 0, 0);border: 2px solid rgb(59, 55, 55);
-        
-    }
-} 
+.img-logo {
+  width: 5rem; }
+
+.coloresNav {
+  background-color: #f1d8d8; }
+
+.imgTitulo {
+  background-image: url("../img/img-para-el-TITULO-04.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 120%; }
+
+.fontSize {
+  font-size: 6rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 3px 3px 2px #5a5858; }
+
+.imgRedes {
+  width: 50%; }
+
+.text-muted {
+  color: #ffffff !important; }
+
+@media (min-width: 992px) {
+  .ms-lg-4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem; }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    margin-left: 1rem;
+    border-bottom: 2px ridge rgba(228, 226, 226, 0.608);
+    border-radius: 5px;
+    background-color: rgba(145, 143, 141, 0.36); }
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    background-color: #eeac3b;
+    box-shadow: 2px 2px 4px 1px black;
+    border: 2px solid #3b3737; } }
