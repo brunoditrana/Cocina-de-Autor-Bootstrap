@@ -26,6 +26,19 @@ body {
 .text-muted {
   color: #ffffff !important; }
 
+.cartaOtrosCursos {
+  max-width: 550px; }
+
+.imgContacto {
+  width: 50%;
+  padding: 1rem; }
+
+.logoVisibleMobile {
+  display: none; }
+
+.imagenPlatos img {
+  max-height: 13rem; }
+
 @media (min-width: 992px) {
   .ms-lg-4 {
     font-family: 'Times New Roman', Times, serif;
@@ -55,4 +68,24 @@ body {
   .me-4 {
     margin-right: 0rem !important; }
   p.parrafoIndex {
-    font-size: .5rem; } }
+    font-size: .5rem; }
+  .cartaOtrosCursos {
+    max-width: 350px; }
+  .imgContacto {
+    width: 100%; }
+  .menuMobile {
+    display: flex; }
+    .menuMobile li {
+      justify-content: center;
+      text-align: center; }
+  .imgMenuMobile img {
+    display: none; }
+  .logoVisibleMobile {
+    display: flex;
+    justify-content: left;
+    width: 20%; }
+  .coloMenu {
+    background-color: #d5d4d2;
+    box-shadow: 1px 1px 2px 1px rgba(208, 204, 204, 0.837); }
+    .coloMenu span {
+      color: #ffffff; } }

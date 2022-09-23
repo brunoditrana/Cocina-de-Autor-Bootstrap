@@ -12,7 +12,22 @@ body{ background-color: rgb(236, 233, 230)}
 }
 .imgRedes{width: 50%;}
 .text-muted{color: #ffffff!important;}
+.cartaOtrosCursos{
+    max-width: 550px;
+}
+.imgContacto{
+    width: 50%; padding:1rem;
+}
+.logoVisibleMobile{
+    display: none;
+}
+.imagenPlatos{
+    img{
 
+        max-height: 13rem;
+        
+    }
+}
 @media (min-width: 992px){
     .ms-lg-4 {
         font-family: 'Times New Roman', Times, serif;
@@ -31,7 +46,7 @@ body{ background-color: rgb(236, 233, 230)}
 } 
 @media  (max-width:480px) {
     
-
+    
     .barraHeader{
         color: #ffffff;
     }
@@ -53,6 +68,41 @@ body{ background-color: rgb(236, 233, 230)}
     }
     p.parrafoIndex{
         font-size: .5rem;
+    }
+
+    .cartaOtrosCursos{
+        max-width: 350px;
+    }
+    .imgContacto{
+        width: 100%; 
+    }
+    .menuMobile{
+        display: flex;
+       li{
+        justify-content: center;
+        text-align: center;
+    
+       } 
+    }
+    .imgMenuMobile{
+       img{
+        
+        display: none;
+       } 
+    }
+    .logoVisibleMobile{
+        display: flex;
+        justify-content: left;
+        width: 20%;
+    }
+    .coloMenu{
+        
+        background-color: rgb(213, 212, 210);
+        box-shadow: 1px 1px 2px 1px rgba(208, 204, 204, 0.837);
+        span{
+            
+            color: #ffffff;
+        }
     }
     
 }
