@@ -29,3 +29,30 @@ body{ background-color: rgb(236, 233, 230)}
         
     }
 } 
+@media  (max-width:480px) {
+    
+
+    .barraHeader{
+        color: #ffffff;
+    }
+    .imgTitulo{
+        background-size: 100% 80%;
+    }
+    .fontSize {
+        font-size: 3rem;
+        margin: 0 auto;
+    }
+    .mb-5 {
+         margin-bottom: 0rem!important; 
+    }
+    .mt-5 {
+         margin-top: 1rem!important; 
+    }
+    .me-4 {
+        margin-right: 0rem!important;
+    }
+    p.parrafoIndex{
+        font-size: .5rem;
+    }
+    
+}

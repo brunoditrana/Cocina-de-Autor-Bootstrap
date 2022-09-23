@@ -39,3 +39,20 @@ body {
     background-color: #eeac3b;
     box-shadow: 2px 2px 4px 1px black;
     border: 2px solid #3b3737; } }
+
+@media (max-width: 480px) {
+  .barraHeader {
+    color: #ffffff; }
+  .imgTitulo {
+    background-size: 100% 80%; }
+  .fontSize {
+    font-size: 3rem;
+    margin: 0 auto; }
+  .mb-5 {
+    margin-bottom: 0rem !important; }
+  .mt-5 {
+    margin-top: 1rem !important; }
+  .me-4 {
+    margin-right: 0rem !important; }
+  p.parrafoIndex {
+    font-size: .5rem; } }
